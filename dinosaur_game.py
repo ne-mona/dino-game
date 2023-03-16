@@ -49,7 +49,7 @@ class Dino(pygame.sprite.Sprite):
 
     def jump(self):
         if self.rect.centery >= 360:
-            while self.rect.centery - self.velocity > 80:
+            while self.rect.centery - self.velocity > 90:
                 self.rect.centery -= 1
 
     def duck(self):
